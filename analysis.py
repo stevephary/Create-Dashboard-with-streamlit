@@ -50,7 +50,7 @@ with col1:
 
     figpx = px.line(specific_country, x='Year', y='Internet Users(%)',
                  title="Internet usage over time for " + country)
-    st.plotly_chart(figpx)
+    st.plotly_chart(figpx, use_container_width=True)
 
 with col2:
     figpx =px.choropleth(internet, 
@@ -59,7 +59,7 @@ with col2:
                     color='Internet Users(%)',
                     title='Internet Usage by Country')
 
-    st.plotly_chart(figpx)
+    st.plotly_chart(figpx, use_container_width=True)
 
 
     other = 'World', 'Asia', 'Upper-middle-income countries',  'High-income countries', 'Lower-middle-income countries', 'Europe', 'North America' , 'South America', 'Africa'
@@ -72,5 +72,5 @@ with col2:
 
     colors = ['#FF5733', '#FFC300', '#C70039', '#900C3F', '#581845']
     figpx1.update_traces(marker=dict(color=colors))
-    st.plotly_chart(figpx1)
+    st.plotly_chart(figpx1, use_container_width=True)
     
