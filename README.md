@@ -13,4 +13,4 @@ Seamless integration with popular data manipulation libraries (Pandas, NumPy, et
 
 Lightweight and easy to use 
 
-### View the dashboard here
+### View the dashboard [here](https://12internet-usage-analysis.streamlit.app/)
