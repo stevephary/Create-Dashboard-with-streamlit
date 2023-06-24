@@ -59,7 +59,7 @@ with col2:
                     color='Internet Users(%)',
                     title='Internet Usage by Country')
 
-    st.plotly_chart(figpx)
+    st.plotly_chart(figpx, use_container_width=True ,height=800)
 
 
     other = 'World', 'Asia', 'Upper-middle-income countries',  'High-income countries', 'Lower-middle-income countries', 'Europe', 'North America' , 'South America', 'Africa'
