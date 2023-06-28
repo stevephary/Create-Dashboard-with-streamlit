@@ -26,7 +26,7 @@ with st.sidebar:
     #create a selectbox option
 
     year = st.selectbox("Please choose a year to display the top 10 countries with the \
-                        highest internet usage based onpopulation share and the top 5 countries\
+                        highest internet usage based on population share and the top 5 countries\
                          with the largest number of internet users", year_list, 10 )
 
     country = st.selectbox("Choose a country to visualize the historical trend of internet usage.", country_list, 10 )
